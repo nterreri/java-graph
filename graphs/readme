@@ -1,0 +1,20 @@
+This package contains the definition of two Graph ADTs, with a single concrete
+implementation for both. The purpose of this package is to implement a weighted 
+directional graph that provides an interface for three core capabilities:
+1. Calculate the length of a given route between vertices in the graph
+2. Calculate the number of possible routes between two vertices of the graph 
+(given some condition that limits the amount of loops allowed if the graph is
+cyclical)
+3. Calculate the length of the shortest route between two vertices
+
+In order to run the demo file (DirectedWeightedGraphDemoJUnit.java) it is 
+necessary to have a platform from which to run JUnit tests over Java files.
+One way to do this is to download a distribution of eclipse that supports Java 
+(see https://eclipse.org/downloads/), import the package into an eclipse workspace 
+(see http://agile.csc.ncsu.edu/SEMaterials/tutorials/import_export/) and run the 
+demo file. There should be distributions of eclipse available for any OS 
+(including Windows and Mac), eclipse distribution that support Java programming
+should automatically support JUnit as a testing framework.
+
+A more comprehensive set of tests against the rest of the implementation can be
+found in another JUnit test case file: DirectedWeightedGraphUnitT.Java
