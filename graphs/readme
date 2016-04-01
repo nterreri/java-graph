@@ -13,7 +13,7 @@ One way to do this is to download a distribution of eclipse that supports Java
 (see https://eclipse.org/downloads/), import the package into an eclipse workspace 
 (see http://agile.csc.ncsu.edu/SEMaterials/tutorials/import_export/) and run the 
 demo file. There should be distributions of eclipse available for any OS 
-(including Windows and Mac), eclipse distribution that support Java programming
+(including Windows and Mac), eclipse distributions that support Java programming
 should automatically support JUnit as a testing framework.
 
 A more comprehensive set of tests against the rest of the implementation can be
